@@ -8,6 +8,22 @@
     <title>Pig Game</title>
   </head>
   <body>
+     <button class="rules--btn">Rules</button>
+
+      <div class="rules hidden">
+      <button class="close-rules">&times;</button>
+      <h1>I'm a modal window 😍</h1>
+      <p>
+       <ol>
+         <li>Each turn, a player rolls a die as many times as they wish. Each result gets added to their current score.</li>
+         <li>If the player rolls a 1, their current score is lost and it’s the next player’s turn.</li>
+         <li>The player can choose to “Hold”, which adds their current score to their total score, then it’s the next player’s turn.</li>
+         <li>The first player to reach 100 points on total score wins the game.</li>
+       </ol>
+      </p>
+    </div>
+    <div class="overlay hidden"></div>
+
     <main>
       <section class="player player--0 player--active">
         <h2 class="name" id="name--0">Player 1</h2>
